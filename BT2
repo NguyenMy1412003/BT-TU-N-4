@@ -1,0 +1,15 @@
+nhập java.util.Scanner;
+
+lớp công khai BT2 {
+public static void main(String[]args) {
+	int a;
+	Máy quét sc = Máy quét mới (System.in);
+	System.out.println("Nhap so a bat ki:");
+	a = sc.nextInt();
+	if(a % 2 !=0) {
+		System.out.println(a + " la so le");
+	}khác {
+		System.out.println(a + "la so chan");
+	}
+}
+}
