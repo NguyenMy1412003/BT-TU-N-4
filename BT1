@@ -1,0 +1,23 @@
+import java.until.Scanner;
+public class BT1{
+public static void main(Strings[] args)
+{    double a,b;
+     Scanner sc= new Scanner(System.in)
+     System.out.println(" Nhap vao hai so a va b bat ki: ");
+     a=sc.nextdouble();
+     b=sc.nextdouble();
+     System.out.println(" Tong hai so la:" + (a+b));
+     System.out.println(" Hieu hai so la:" + (a-b));
+     System.out.println(" Tich hai so la:" + (a*b));
+     System.out.println(" Thuong hai so la:" + (a/b));
+     System.out.println(" Phep chia lay du hai so la:" + (a%b));
+     If(a>b)
+     {  System.out.println(a + ">" + b);
+     }else if(a<b)
+     {  System.out.println(a + "<" + b);
+     else 
+        System.out.println(a + "=" + b);
+      }
+      }
+ }
+ //code boi Tra My//
